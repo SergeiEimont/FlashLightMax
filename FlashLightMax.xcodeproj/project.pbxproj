@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE17735D27AAD1C400ADB533 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17735C27AAD1C400ADB533 /* RoundButton.swift */; };
 		BE91F5C427A74F72005F4A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE91F5C327A74F72005F4A6D /* AppDelegate.swift */; };
 		BE91F5C627A74F72005F4A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE91F5C527A74F72005F4A6D /* SceneDelegate.swift */; };
 		BE91F5C827A74F72005F4A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE91F5C727A74F72005F4A6D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE17735C27AAD1C400ADB533 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		BE91F5C027A74F72005F4A6D /* FlashLightMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLightMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE91F5C327A74F72005F4A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE91F5C527A74F72005F4A6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		BE91F5B727A74F72005F4A6D = {
 			isa = PBXGroup;
 			children = (
+				BE17735C27AAD1C400ADB533 /* RoundButton.swift */,
 				BE91F5C227A74F72005F4A6D /* FlashLightMax */,
 				BE91F5C127A74F72005F4A6D /* Products */,
 			);
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE17735D27AAD1C400ADB533 /* RoundButton.swift in Sources */,
 				BE91F5C827A74F72005F4A6D /* ViewController.swift in Sources */,
 				BE91F5C427A74F72005F4A6D /* AppDelegate.swift in Sources */,
 				BE91F5C627A74F72005F4A6D /* SceneDelegate.swift in Sources */,
