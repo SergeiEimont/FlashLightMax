@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var isLightOn = 0
+    var workMode: Int = 0
     
     
     override var prefersStatusBarHidden: Bool {
@@ -40,19 +41,41 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPress() {
-        if isLightOn <= 4 {
-            updateUI()
-            isLightOn += 1
-        } else {
-            isLightOn = 0
-            updateUI()
+        switch workMode {
+            case 1:
+                if isLightOn <= 1 {
+                    updateUI()
+                    isLightOn += 1
+                } else {
+                    isLightOn = 0
+                    updateUI()
+        }
+            case 2:
+                if isLightOn <= 4 {
+                            updateUI()
+                            isLightOn += 1
+                        } else {
+                            isLightOn = 0
+                            updateUI()
+                        }
+            default:
+                if isLightOn <= 1 {
+                    updateUI()
+                    isLightOn += 1
+                } else {
+                    isLightOn = 0
+                    updateUI()
+            
+            }
         }
     }
     
     @IBAction func buttonBlackWhitePress() {
+        workMode = 1
     }
     
     @IBAction func buttonMulticolorPress() {
+        workMode = 2
     }
     
     @IBAction func buttonFlashlightPress() {
