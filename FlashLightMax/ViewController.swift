@@ -79,7 +79,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonFlashlightPress() {
-    }
+        
+   }
 }
 
 
