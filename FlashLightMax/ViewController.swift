@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         }
     }
     
+    
     @IBAction func buttonPress() {
         switch workMode {
             case 1:
@@ -79,7 +80,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonFlashlightPress() {
-        
+      //не смог найти реализацию данного функционала
    }
 }
 
